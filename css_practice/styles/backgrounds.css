@@ -1,0 +1,22 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("https://picsum.photos/600/400");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 2000px;
+}
+
+h1 {
+    color: chartreuse;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    margin: auto;
+    border-style: ridge solid;
+    border-width: 10px;
+    border-color: rgb(22, 179, 22);
+}

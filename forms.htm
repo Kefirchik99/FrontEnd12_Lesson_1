@@ -1,0 +1,86 @@
+
+<!-- EMMET!!! -->
+ 
+<!-- EMMET!!! -->
+ 
+<!-- EMMET!!! -->
+ 
+<!-- EMMET!!! -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .namebadge {
+            width: 200px;
+            margin: 10px;
+            padding: 20px;
+            border: 5px solid #6c004b;
+            background-color: #10840e;
+            border-radius: 15px;
+        }
+        .namebadge h2 {
+            color: #b11d1d;
+        }
+        .boss{
+            background-color: aquamarine;
+        }
+        #unique {
+            background-color: #f27200;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="namebadge boss">
+        <h2>J Smith</h2>
+        <p>Company Director</p>
+    </div>
+    <div class="namebadge" id="unique">
+        <h2>Sarah Connor</h2>
+        <p>Accountant</p>
+    </div>
+    <div class="namebadge">
+        <h2>Bobo Simon</h2>
+        <p>Seller</p>
+    </div> -->
+
+    <form method="get">
+        <label for="user-name" >USERNAME</label>
+        <input type="text" id="user-name">
+        <label for="password">P-word</label>
+        <input type="password" name="password" id="password" placeholder="p-word">
+        <input type="submit" value="CLICK US">
+        <br/>
+        <div>
+            <select name="cars" multiple size="6">
+                <optgroup label="DE cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </optgroup>
+                    <optgroup label="JAP cars">
+                        <option value="honda">Honda</option>
+                        <option value="lexus">Lexus</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="nissan">Nissan</option>
+                </optgroup>
+            </select>
+            <br/>
+            <textarea name="message" cols="10" rows="10" style="resize: none;"></textarea>
+        </div>
+        <datalist id="default-names">
+            <option value="Alice">Alice</option>
+            <option value="Bob">Bob</option>
+            <option value="Charlie">Charlie</option>
+            <option value="David">David</option
+            <option value="Frank">Frank</option>
+        </datalist>
+    </form> 
+</body>
+</html>
